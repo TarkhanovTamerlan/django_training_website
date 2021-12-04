@@ -16,3 +16,4 @@ def thanks_page(request):
     return render(request, './thanks_page.html', {
         'name':name, 'phone':phone
     })
+
